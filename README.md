@@ -2,7 +2,8 @@
 
 Simple yet powerful server and client realization with synchronization and caching features.
 
-**Context and objective**
+## Context and objective
+
 I have developed 2 programs. A threaded server and a client. The server loads a graph from a text file, and uses a dynamic pool of threads to handle incoming connections. The client(s) connect to the server and request a path between two arbitrary nodes, and the server provides
 this service.
 
