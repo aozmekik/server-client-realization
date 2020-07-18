@@ -34,7 +34,7 @@ to destinationNode indices, separated by a tab character.
 ### Main thread
 
 The server process loads the graph to memory from its input file (file
-structure is straightforward and explained in it). It is up to you to decide how to model the graph. The server process communicates with the client process(es) through stream/TCP socket based
+structure is straightforward and explained in it). The server process communicates with the client process(es) through stream/TCP socket based
 connections.
 
 The server possess a pool of POSIX threads, and in the form of an endless loop, as soon as a new
